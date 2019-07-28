@@ -1,0 +1,42 @@
+img-fluid {
+  width: 10%;
+  height: 10px;
+}
+.history{
+  height: 100px;
+  width: 998px;
+  text-align: center;
+ 
+  
+}
+h2{
+  background-color:lightgrey;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.product img{
+  width: 350px;
+  height: 200px;
+  margin: auto;
+
+
+}
+.product{
+
+ grid-column-start: 1/6;
+ grid-column-end:;
+}

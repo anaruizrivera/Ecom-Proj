@@ -9,41 +9,119 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet"  href="css/styles.css"/>
+  
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <title>Women Jackets</title>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+
+
+
 </head>
 
+
 <body>
-  <nav class="navbar navbar-expand-lg fix-top">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar">
-      <span class="navbar-toggle-icon">&#9776;</span>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">&#9776;</span>
     </button>
-
-    <a class="navbar-brand" href="a"><img src="img/pandalogo.jpg" class="img-fluid"></a>
-
-    <div class="colllapse navbar-collaps" id="navigation-bar">
+    <a class="navbar-brand" href="#"><img src="" class="img-fluid"></a>
+    <div class="collapse navbar-collapse" id="navigation-bar">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-items"><a class="nav-link" href="#home">HOME</a></li>
-        <li class="nav-items"><a class="nav-link" href="#product">PRODUCT</a></li>
-        <li class="nav-items"><a class="nav-link" href="#customer">CUSTOMER</a></li>
-        <li class="nav-items"><a class="nav-link" href="#contact-form">CONTACT</a></li>
-        <li class="nav-items"><a class="nav-link" href="#contact-us">CONTACT US</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="product.html">PRODUCT</a></li>
+        <li class="nav-item"><a class="btn btn-danger dropdown-toggle dropdown-toggle-split" href="shop.html">SHOP</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+
       </ul>
     </div>
+
   </nav>
 
+  <div class="slider">
+    <a>
+      <div>
+        <img src="img/firstpic.jpg">
+      </div>
+    </a>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+    <a>
+      <div>
+        <img src="img/harley-davidson-QD6GvrDFPAA-unsplash.jpg">
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="img/harley-davidson-xAHtaYIHlPI-unsplash.jpg">
+      </div>
+    </a>
 
 
+    <a>
+      <div>
+        <img src="img/harley-davidson-zGzXsJUBQfs-unsplash.jpg">
+      </div>
+    </a>
+  </div>
 
+  <script>
+    $('.slider').bxSlider({
+      autoControls: true,
+      auto: true,
+      pager: true,
+      mode: 'fade',
+      captions: true,
+      speed: 1000,
+    });
+  </script>
 
+  <div class="history">
+    <h2>History</h2>
+    <p>A motorcycle, often called a bike, motorbike, or cycle, is a two- or three-wheeled motor vehicle.
+      Motorcycle design varies greatly to suit a range of different purposes: long distance travel, commuting,
+      cruising, sport including racing, and off-road riding. Motorcycling is riding a motorcycle and related
+      social activity such as joining a motorcycle club and attending motorcycle rallies.</p>
+      <img src="img/moto.jpg">
+
+    <p>In 1894, Hildebrand & Wolfmüller became the first series production motorcycle, and the first to be
+      called a motorcycle. In 2014, the three top motorcycle producers globally by volume were Honda, Yamaha
+      (both from Japan), and Hero MotoCorp (India).</p>
+    <p>In developing countries, motorcycles are considered utilitarian due to lower prices and greater
+      fuel economy. Of all the motorcycles in the world, 58% are in the Asia-Pacific and Southern and
+      Eastern Asia regions, excluding car-centric Japan.</p>
+
+    <p>According to the US Department of Transportation the number of fatalities per vehicle mile traveled
+      was 37 times higher for motorcycles than for cars.</p>
+    <p>On average, motorcycles are about twice as fuel efficient as cars.</p>
+    
+
+  </div>
+  
+      <!-- Footer -->
+  <section class="footer">
+    <div>
+      <h3>Social</h3>
+    <p>rage, motorcycles</p>
+    <p>rage, motorcycles</p>
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+    </div>
+  </section>
 
 </body>
 
