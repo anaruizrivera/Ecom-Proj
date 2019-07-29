@@ -1,0 +1,69 @@
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px; /*Make the grid smaller than the container*/
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+    font-family: 'Coda', cursive;
+ 
+  }
+ 
+  .grid-container > div {
+    background-color: rgba(253, 253, 253, 0.8);
+    text-align: center;
+    padding: 55px 0;
+    /*font-size: 30px;*/
+ 
+  }
+ .price{
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+ }
+ .image1{
+     width: 200px;
+     height: 200px;
+ }
+ .image2{
+    width: 300px;
+    height: 200px;
+} .image3{
+    width: 300px;
+    height: 200px;
+}
+.image4{
+    width: 300px;
+    height: 200px;
+}
+.image5{
+    width: 300px;
+    height: 200px;
+}
+.image6{
+    width: 300px;
+    height: 200px;
+} .image7{
+    width: 300px;
+    height: 200px;
+} .image8{
+    width: 300px;
+    height: 200px;
+} .image9{
+    width: 300px;
+    height: 200px;
+} .image10{
+    width: 300px;
+    height: 200px;
+} .image11{
+    width: 300px;
+    height: 200px;
+}
+.image12{
+    width: 300px;
+    height: 200px;
+}
+.h1{
+    font-size: 50px;
+    padding-left: 40%;
+    font-family: 'Bree Serif', serif;
+}
